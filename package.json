@@ -1,6 +1,6 @@
 {
   "name": "ts-ami-bccp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Asterisk AMI client for TypeScript, also implement async AGI",
   "main": "./dist/lib/index.js",
   "types": "./dist/lib/index.d.ts",
@@ -22,10 +22,10 @@
   "dependencies": {
     "asterisk-manager": "^0.1.16",
     "evt": "^1.8.7",
-    "ini-extended": "fsystemdevelopment/ini-extended-bccp",
-    "timer-extended": "fsystemdevelopment/timer-extended-bccp",
-    "transfer-tools": "fsystemdevelopment/transfer-tools-bccp",
-    "ts-async-agi": "fsystemdevelopment/ts-async-agi-bccp"
+    "ini-extended": "fsystemdevelopment/ini-extended",
+    "timer-extended": "fsystemdevelopment/timer-extended",
+    "transfer-tools": "fsystemdevelopment/transfer-tools",
+    "ts-async-agi": "fsystemdevelopment/ts-async-agi"
   },
   "devDependencies": {
     "@types/node": "^9.4.2",
